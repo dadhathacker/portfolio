@@ -1,11 +1,50 @@
-<!DOCTYPE html>
-<html lang=”en”>
+<html>
 <head>
-		<meta charset=”utf-8” />
-		<title> Basic HTML </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <title>My Portfolio</title>
 </head>
 <body>
-	<h1> Dean Samnang  </h1>
-	<p> Professional Realtor Rookie Software Developer</p>
-	</body>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="">GitHub</a>
+        <a href="">LinkedIn</a>
+        <a href="">Resume</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <section class="banner">
+        <h2>Dean Samnang</h2>
+        <p>A new student learning web development</p>
+    </section>
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+
+    <footer class="footer-basic-centered">
+        <p class="footer-links">
+            <a href="#">Facebook</a>
+            ·
+            <a href="#">Twitter</a>
+            ·
+            <a href="#">LinkedIn</a>
+            ·
+            <a href="#">About</a>
+            ·
+            <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-your-name">Dean Samnang © 2017</p>
+
+    </footer>
+</body>
 </html>
