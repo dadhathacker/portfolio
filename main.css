@@ -32,8 +32,7 @@ body {
 }
 
 .banner {
-    p {
-        border: 2px solid green; 
+    p.double {border-style: double;} 
   
     padding-left: 16px;
     color: #ddd;
