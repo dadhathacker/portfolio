@@ -33,14 +33,14 @@ body {
 
 .banner {
     p {
-        border-top-style: solid;}
+        border: 2px solid green; 
   
     padding-left: 16px;
     color: #ddd;
     background-color: #00cc00;
     position: relative;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     min-height: 600px; /* set default height */
     transition: all 0.5s ease; /* optional css transition effect */
 }
