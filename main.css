@@ -32,9 +32,7 @@ body {
 }
 
 .banner {
-    p.double {border-style: double;} 
-  
-    padding-left: 16px;
+  padding-left: 16px;
     color: #ddd;
     background-color: #0099ff;
     position: relative;
